@@ -8,25 +8,53 @@
 .logo{
     font-size: 30px;
     font-family: minion-pro;
-    color: black;
+    color: white;
 }
 
 .logo a{
-    color:  black;
+    color:  white;
     text-decoration: none;
     font-family: minion-pro;
 }
 
 .author{
     padding: 3%;
-    color: black;
+    color: white;
 }
 
 body{
-    background-image: linear-gradient(#DFB300, #AB0000, #003B8B);
+    background-image: linear-gradient(#003B8B, #AB0000, #DFB300);
     animation: fadeInAnimation ease 2.5s; 
     animation-iteration-count: 1; 
     animation-fill-mode: forwards;
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 90%;
+}
+
+.grid-left-second{
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-left-first{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #header{
@@ -49,12 +77,34 @@ body{
 
 .description{
     margin-top: 3%;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-style: 'Light 300';
+    font-size: 150%;
+}
+
+.description-half{
     width: 60%;
+    margin: auto;
+    padding-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-style: 'Light 300';
+    font-size: 150%;
 }
 
 .picture{
     border: 10px solid white;
-    width: 50%;
+    width: 90%;
+    margin: auto;
+}
+
+.picture-half{
+    border: 10px solid white;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 3%;
 }
 
 .notop{
@@ -62,7 +112,7 @@ body{
 }
 
 .title{
-    color: black;
+    color: white;
     font-size: 5vw;
 }
 
