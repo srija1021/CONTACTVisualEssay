@@ -1,0 +1,133 @@
+* {
+    margin: 0; padding: 0;
+    color:  white;
+    font-family: minion-pro;
+   
+}
+  
+.logo{
+    font-size: 30px;
+    font-family: minion-pro;
+    color: black;
+}
+
+.logo a{
+    color:  black;
+    text-decoration: none;
+    font-family: minion-pro;
+}
+
+.author{
+    padding: 3%;
+    color: black;
+}
+
+body{
+    background-image: linear-gradient(#DFB300, #AB0000, #003B8B);
+    animation: fadeInAnimation ease 2.5s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards;
+}
+
+#header{
+    height: 90vh;
+  
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#highlight{
+    font-style: italic;
+}
+
+#black{
+    color: black;
+}
+
+.description{
+    margin-top: 3%;
+    width: 60%;
+}
+
+.picture{
+    border: 10px solid white;
+    width: 50%;
+}
+
+.notop{
+    margin-top: 0px;
+}
+
+.title{
+    color: black;
+    font-size: 5vw;
+}
+
+.frame{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 5%;
+    opacity: 0;
+
+
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.special{
+    padding-bottom: 0%;
+}
+
+.in-view{
+    opacity:1;
+}
+
+img{
+    width: 60vw;
+    margin:auto;
+}
+
+h3{
+    width: 70vw;
+    font-size: 25px;
+    line-height: 40px;
+    padding-bottom: 5%;
+    font-weight: 100;
+}
+
+
+/* sets different rules for narrower screens (usually meaning mobile) If
+you want to quickly test how this works on your computer, just make your 
+browser window really skinny */
+@media screen and (max-width: 800px) {
+
+    .frame{
+        min-height: 100vh;
+    }
+
+    .logo{
+        font-size: 20px; 
+    }
+
+    .title{
+        font-size: 30px;
+    }
+
+    .h3{
+        font-size: 10px;
+        width: 100vw;
+    }
+
+    .img{
+        height: 100vw;
+    }
+    
+}
