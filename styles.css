@@ -81,7 +81,7 @@ body{
     margin: auto;
     padding-bottom: 0px;
     font-family: 'Roboto', sans-serif;
-    font-style: 300;
+    font-weight: 300;
     font-size: 150%;
 }
 
@@ -90,18 +90,11 @@ body{
     margin: auto;
     padding-bottom: 0px;
     font-family: 'Roboto', sans-serif;
-    font-style: 300;
+    font-weight: 300;
     font-size: 150%;
 }
 
-.description-half-bold{
-    width: 60%;
-    margin: auto;
-    padding-bottom: 0px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 150%;
-}
+
 
 .picture{
     border: 10px solid white;
@@ -168,12 +161,15 @@ you want to quickly test how this works on your computer, just make your
 browser window really skinny */
 @media screen and (max-width: 800px) {
 
+  
+
     .frame{
         min-height: 100vh;
     }
 
     .logo{
         font-size: 20px; 
+     
     }
 
     .title{
@@ -188,5 +184,33 @@ browser window really skinny */
     .img{
         height: 100vw;
     }
+
+    .flexbox{
+        flex-direction: column;
+       
+    }
+
+    .grid-left-second{
+        order: 3;
+    }
+
+    .grid-left-first{
+        width: 60vw;
+        margin:auto;
+        margin-bottom: 3%;
+
+    }
+
+    .grid-right{
+        width: 60vw;
+        margin:auto;
+        margin-bottom: 3%;
+    }
+
+    .grid-left-second{
+        width: 60vw;
+        margin:auto;
+    }
+    
     
 }
