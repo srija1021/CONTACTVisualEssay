@@ -81,7 +81,7 @@ body{
     margin: auto;
     padding-bottom: 0px;
     font-family: 'Roboto', sans-serif;
-    font-style: 'Light 300';
+    font-style: 300;
     font-size: 150%;
 }
 
@@ -90,7 +90,16 @@ body{
     margin: auto;
     padding-bottom: 0px;
     font-family: 'Roboto', sans-serif;
-    font-style: 'Light 300';
+    font-style: 300;
+    font-size: 150%;
+}
+
+.description-half-bold{
+    width: 60%;
+    margin: auto;
+    padding-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     font-size: 150%;
 }
 
